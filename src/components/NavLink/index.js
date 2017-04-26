@@ -1,16 +1,19 @@
-import React from 'react'
+import React, {PropTypes} from 'react'
 import styles from './index.css'
 
 import {Link} from  'phenomic'
 
 const NavLink = (props)=>{
-  let isActive = this.context.router.isActive(props.to, true)
-  let className = isActive ? 
   return(
-      <Link className={styles.link} to={'/'}>
-        {'Home'}
+      <Link activeClassName={styles.active} className={styles.link} to={props.to}>
+        {props.title}
       </Link>
   )
+}
+
+NavLink.propTypes = {
+  to: PropTypes.string,
+  title: PropTypes.string
 }
 
 export default NavLink

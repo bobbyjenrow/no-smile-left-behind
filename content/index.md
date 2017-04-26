@@ -1,11 +1,11 @@
 ---
-title: Research
+title: Home
 layout: MyPage
-hero: http://res.cloudinary.com/ds0f4qyyt/image/upload/s--fFnMBUXC--/c_scale,q_jpegmini,w_3343/v1492714068/baby_minified.jpg
+hero: http://res.cloudinary.com/ds0f4qyyt/image/upload/s--cDT8LNF_--/c_scale,q_jpegmini,w_3567/v1493124494/babyRight_zsfd5q.jpg
 # hero credit: https://www.flickr.com/photos/pslee999/15589950511/
 cta:
   headline: We deliver!
-  tagline: No Smile Left Behind brings high quality dentistry straight to your door in our mobile dental vans. Serving the Denver area since 2018.
+  tagline: No Smile Left Behind is dedicated to providing compassionate, top-quality, comprehensive oral health care in a cutting-edge & self-contained mobile office.
   split: Get Started Today!
   link1:
     label: Patients

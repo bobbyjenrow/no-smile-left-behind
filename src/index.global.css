@@ -1,7 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Arimo|Nunito|Open+Sans');
-
-
-
 /* Using global sytles is not recommended, prefer local styles via CSS Modules */
 
 /*
@@ -24,6 +21,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 /*
@@ -38,7 +36,6 @@ body {
   color: var(--colorText);
   font-size: 1rem;
   line-height: 1.5rem;
-
   /* system font https://medium.com/designing-medium/system-shock-6b1dc6d6596f */
   font-family: 'Open Sans', sans-serif;
 }
@@ -96,4 +93,11 @@ hr {
   background: var(--colorNeutral);
   opacity: 0.2;
   margin: 2rem 0;
+}
+
+#logo svg{
+  transition: 0.3s ease-in;
+  &:hover{
+    opacity: 0.5;
+  }
 }

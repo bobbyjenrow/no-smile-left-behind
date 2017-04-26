@@ -6,7 +6,7 @@ import logo from 'Assets/myNSLB.svg'
 
 const Logo = ()=>{
   return(
-      <Svg className={styles.svg} svg={logo} width={"12rem"}  />
+      <Svg id="logo" className={styles.svg} svg={logo} width={"12rem"}  />
   )
 }
 

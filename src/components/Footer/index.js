@@ -1,16 +1,17 @@
 import React from "react"
 import {Link} from  'phenomic'
 
+import Button from '../Button'
 import styles from "./index.css"
 
 const Footer = () => (
   <div className={styles.wrapper}>
     <footer className={styles.footer}>
       <Link className={styles.link} to={'/'}>
-        Patient Registry
+        <Button secondary big>Patient Registry</Button>
       </Link>
       <Link className={styles.link} to={'/contact'}>
-        Request Services
+        <Button secondary big>Request Services</Button>
       </Link>
     </footer>
   </div>

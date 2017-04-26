@@ -17,7 +17,7 @@
   margin: auto;
 }
 
-.link{
+/*.link{
   margin: .5rem;
   display: flex;
   align-items: center;
@@ -45,8 +45,14 @@
     text-decoration: none;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   }
+}*/
+.link{
+  text-decoration: none;
+  margin: 0 1rem;
+  &:hover{
+    text-decoration: none;
+  }
 }
-
 
 .phenomicReference {
   font-size: 0.75rem;

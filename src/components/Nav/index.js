@@ -1,31 +1,22 @@
-import React from 'react'
+import React, {PropTypes} from 'react'
 import styles from './index.css'
 
-import {Link} from  'phenomic'
+import NavLink from '../NavLink'
 
-const Nav = ()=>{
+const Nav = (props)=>{
   return(
     <nav className={styles.nav}>
-      <Link
-        className={styles.link}
-        activeClassName={styles.active}
-        to={'/'}>
-        {'Home'}
-      </Link>
-      <Link className={styles.link} activeClassName={styles.active} to={'/about'}>
-        {'About'}
-      </Link>
-      <Link className={styles.link} activeClassName={styles.active} to={'/patients'}>
-        {'Patient Info'}
-      </Link>
-      <Link className={styles.link} activeClassName={styles.active} to={'/research'}>
-        {'Research'}
-      </Link>
-      <Link className={styles.link} activeClassName={styles.active} to={'/contact'}>
-        {'Contact'}
-      </Link>
+      {
+        props.list.map((li,ix)=>(
+          <NavLink key={ix} title={li.title} to={li.url} />
+        ))
+      }
     </nav>
   )
+}
+
+Nav.propTypes = {
+  list: PropTypes.array
 }
 
 export default Nav

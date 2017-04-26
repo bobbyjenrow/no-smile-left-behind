@@ -1,3 +1,7 @@
 .content {
   margin-top: var(--headerHeight);
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-content: center;
 }

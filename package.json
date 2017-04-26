@@ -127,6 +127,7 @@
     "phenomic": "^0.21.1"
   },
   "dependencies": {
+    "react-burger-menu": "^2.0.0",
     "scrollmagic": "^2.0.5"
   }
 }
