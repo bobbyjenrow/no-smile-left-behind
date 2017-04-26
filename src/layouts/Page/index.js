@@ -48,7 +48,8 @@ const Page = (
     { name: "twitter:description", content: head.description },
     { name: "twitter:image", content: socialImage },
     { name: "description", content: head.description },
-    {name: "viewport", content: "width=device-width, initial-scale=1"}
+    {name: "viewport", content: "width=device-width, initial-scale=1"},
+    {}
   ]
 
   return (
