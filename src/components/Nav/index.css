@@ -3,8 +3,7 @@
   flex-flow:row;
   justify-content: space-between;
   align-items: center;
-  height: 100%;
-
+  background: none;
 }
 /*.link{
   display: flex;

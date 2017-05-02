@@ -1,12 +1,15 @@
 import React from 'react';
 import styles from './index';
 import Svg from "react-svg-inline";
-import logo from 'Assets/myNSLB.svg'
+import logo from 'Assets/NSLB-horizontal.svg'
+import {Link} from "phenomic"
 // import data from 'Root/cssvars.js'
 
 const Logo = ()=>{
   return(
-      <Svg id="logo" className={styles.svg} svg={logo} width={"12rem"}  />
+    <Link to="/">
+      <Svg id="logo" className={styles.svg} svg={logo} height={"100px"}  />
+    </Link>
   )
 }
 

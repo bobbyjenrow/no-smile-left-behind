@@ -1,7 +1,7 @@
 ---
 title: Home
 layout: MyPage
-hero: http://res.cloudinary.com/ds0f4qyyt/image/upload/s--cDT8LNF_--/c_scale,q_jpegmini,w_3567/v1493124494/babyRight_zsfd5q.jpg
+hero: http://res.cloudinary.com/ds0f4qyyt/image/upload/v1492714068/baby_minified.jpg
 # hero credit: https://www.flickr.com/photos/pslee999/15589950511/
 cta:
   headline: We deliver!
