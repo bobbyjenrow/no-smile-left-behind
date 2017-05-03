@@ -2,7 +2,7 @@ const data = {
   nav: {
     links: [
       {url: "/about", title: 'About'},
-      {url: 'patients', title: "Patient Info"},
+      {url: 'patients', title: "Patients"},
       {url: "/research", title: 'Research'},
       {url: '/contact', title: 'Contact'}
     ]

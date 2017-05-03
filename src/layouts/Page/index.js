@@ -1,10 +1,11 @@
 import React, { PropTypes } from "react"
 import Helmet from "react-helmet"
 import warning from "warning"
-import { BodyContainer, joinUri } from "phenomic"
+import { joinUri } from "phenomic"
 
-import Loading from "../../components/Loading"
+// import Loading from "../../components/Loading"
 import Footer from "../../components/Footer"
+import PageCap from '../../components/PageCap'
 
 import styles from "./index.css"
 
@@ -58,32 +59,9 @@ const Page = (
         title={ metaTitle }
         meta={ meta }
       />
-      {
-        <div
-          className={ styles.hero }
-          style={ head.hero && {
-            background: `#111 url(${ head.hero }) 50% 50% / cover`,
-          } }
-        >
-          <div className={ styles.header }>
-            <div className={ styles.wrapper }>
-              <h1 className={ styles.heading }>{ head.title }</h1>
-            </div>
-          </div>
-        </div>
-      }
-      <div className={ styles.wrapper + " " + styles.pageContent }>
-        { header }
-        <div className={ styles.body }>
-          {
-            isLoading
-            ? <Loading />
-            : <BodyContainer>{ body }</BodyContainer>
-          }
-        </div>
-        { children }
-        <Footer />
-      </div>
+      <PageCap dark title={head.title} image={head.hero}/>
+
+      <Footer />
     </div>
   )
 }

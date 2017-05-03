@@ -1,6 +1,6 @@
 ---
 title: About Us
-hero: https://farm4.staticflickr.com/3949/15589950511_3675b15e59_k.jpg
+hero: http://res.cloudinary.com/ds0f4qyyt/image/upload/v1492714068/baby_minified.jpg
 # hero credit: https://www.flickr.com/photos/pslee999/15589950511/
 cta:
   label: Discover NSLB now

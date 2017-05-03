@@ -2,7 +2,7 @@
 .wrapper{
   width: 100%;
   height: auto;
-  background-color: color(var(--colorNeutralLight) a(0.7));
+  background-color: color(var(--colorNeutralLight));
   position: fixed;
   top: 0;
   left: 0;
@@ -11,6 +11,9 @@
   transition: 0.3s ease-in;
   &:hover{
     background-color: var(--colorNeutralLight);
+  }
+  @media screen and (min-width:  848px){
+      height: var(--headerHeight)
   }
 }
 
@@ -27,11 +30,12 @@
   align-items: center;
   @media screen and (min-width:  848px){
       justify-content: space-between;
+      height: var(--headerHeight)
   }
 }
 
 .navWrapper{
-  height: auto;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,6 +46,5 @@
 }
 
 .logo{
-  order: 0;
   margin: auto;
 }
