@@ -45,7 +45,7 @@ class Contact extends Component{
       }
      <ContactItem type="text" title="title" caption="Message Title" onChange={this.handleStateChange} />
       <ContactItem type="textarea" title="message" caption="Message" onChange={this.handleStateChange} />
-      <Button className={styles.submit} onClick={this.handleSubmit} > <label>Submit</label> </Button>
+      <Button secondary className={styles.submit} onClick={this.handleSubmit} > <label>Submit</label> </Button>
       {/* <label className={styles.label} htmlFor="name">Name</label>
       <input id="name" value={this.state.name} onChange={this.handleNameChange} type="text" className={styles.name}/>
       <div className={styles.isOrgRow}>

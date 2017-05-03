@@ -3,9 +3,13 @@ import PropTypes from 'prop-types'
 import styles from './index.css'
 import * as cx  from 'classnames'
 
-const PageCap = ({title, image, primary, secondary, light, dark, gradient})=>{
+const PageCap = ({title, full, image, primary, secondary, light, dark, gradient})=>{
   return(
-  <div className={styles.pagecap} style={{backgroundImage: `url("${image}")`}}>
+  <div>
+  <div className={cx({
+    [styles.pagecap]: true,
+    [styles.full]: full
+  })} style={{backgroundImage: `url("${image}")`}}>
     <div className={cx({
       [styles.overlay]: true,
       [styles.gradient]: gradient,
@@ -14,8 +18,9 @@ const PageCap = ({title, image, primary, secondary, light, dark, gradient})=>{
       [styles.light]: light,
       [styles.dark]:  dark
     })}>
-      <h1 className={styles.title}>{title}</h1>
     </div>
+  </div>
+  <h1 className={styles.title}>{title}</h1>
   </div>
   )
 }
@@ -27,7 +32,8 @@ PageCap.propTypes = {
   primary: PropTypes.boolean,
   secondary: PropTypes.boolean,
   light: PropTypes.boolean,
-  dark: PropTypes.boolean
+  dark: PropTypes.boolean,
+  full: PropTypes.boolean
 }
 
 export default PageCap

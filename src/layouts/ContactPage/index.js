@@ -63,7 +63,7 @@ const ContactPage = (
         link={ link }
         meta={ meta }
       />
-      <PageCap dark title={head.title} image={head.hero}/>
+      <PageCap full dark title={head.title} image={head.hero}/>
       <Contact />
       <Footer />
     </div>

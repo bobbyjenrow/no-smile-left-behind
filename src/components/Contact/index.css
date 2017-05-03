@@ -6,11 +6,14 @@
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  border: 1px solid var(--colorPrimary);
-  border-radius: 20px;
+  border-radius: 3px;
+  background-color: color(var(--colorPrimary) a(0.8));
+  color: var(--colorNeutralLight);
   @media (min-width: 460px){
     min-width: 400px;
   }
+
+
 
 }
 .name, .org, .title, .message{
@@ -44,4 +47,5 @@
 }
 .submit{
   width: 50%;
+  margin-top: 2rem;
 }

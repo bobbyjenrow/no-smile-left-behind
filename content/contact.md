@@ -1,6 +1,6 @@
 ---
 title: Contact
-hero: https://farm4.staticflickr.com/3949/15589950511_3675b15e59_k.jpg
+hero: http://res.cloudinary.com/ds0f4qyyt/image/upload/s--Apiy0pSL--/c_scale,q_jpegmini,w_3773/v1493834434/london_f0prw6.jpg
 layout: ContactPage
 # hero credit: https://www.flickr.com/photos/pslee999/15589950511/
 cta:
