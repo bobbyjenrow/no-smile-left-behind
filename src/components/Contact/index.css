@@ -1,0 +1,47 @@
+.form{
+  margin: 1rem auto;
+  padding: 2rem;
+  min-width: 300px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--colorPrimary);
+  border-radius: 20px;
+  @media (min-width: 460px){
+    min-width: 400px;
+  }
+
+}
+.name, .org, .title, .message{
+  font-family: 'Open Sans', sans-serif;
+  color: var(--colorPrimary);
+  margin: .8rem 0;
+  height: 3rem;
+  font-size: 1.6rem;
+  outline: 0;
+  border-radius: 10px;
+  border: 1px solid color(var(--colorSecondary));
+  width: 100%;
+  &:focuss{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  }
+}
+.isOrgRow{
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.isOrgRow{
+  width: 100%;
+}
+.isOrg{
+  border-radius: 10px;
+  border: 1px solid color(var(--colorSecondary));
+
+}
+.submit{
+  width: 50%;
+}

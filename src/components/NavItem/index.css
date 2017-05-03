@@ -17,6 +17,9 @@
     text-decoration: none;
 
   }
+  @media (max-width: 300px){
+      font-size: .8rem;
+  }
   @media (min-width: 330px) and (max-width:  419px){
     font-size: 1.4rem;
     padding: .4rem;

@@ -1,8 +1,9 @@
 {
   "private": true,
-  "name": "nslb",
+  "name": "no-smile-left-behind",
   "homepage": "http://www.nosmileleftbehind.com",
   "twitter": "",
+  "favicon": "./content/assets/favicon.png",
   "repository": "https://github.com/bobbyjenrow/bobbyjenrow.github.io.git",
   "scripts": {
     "lint:js": "eslint --ignore-path .gitignore --fix .",

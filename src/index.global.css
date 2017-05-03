@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Arimo|Nunito|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Poppins');
 /* Using global sytles is not recommended, prefer local styles via CSS Modules */
 
 /*
@@ -41,7 +41,7 @@ body {
 }
 h1,h2,h3,h4,h5,h6{
   /*font-family: 'Nunito', sans-serif;*/
-  font-family: 'Arimo', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 /*

@@ -56,6 +56,7 @@
 }
 
 .body {
+  margin-bottom: var(--footerHeight);
   & a {
     color: var(--colorPrimary);
     transition: all 0.2s;

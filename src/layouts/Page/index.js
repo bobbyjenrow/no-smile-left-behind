@@ -34,6 +34,8 @@ const Page = (
   const socialImage = head.hero && head.hero.match("://") ? head.hero
     : joinUri(process.env.PHENOMIC_USER_URL, head.hero)
 
+  const link=[{rel:"icon", href:pkg.favicon}]
+
   const meta = [
     { property: "og:type", content: "article" },
     { property: "og:title", content: metaTitle },
@@ -49,14 +51,14 @@ const Page = (
     { name: "twitter:description", content: head.description },
     { name: "twitter:image", content: socialImage },
     { name: "description", content: head.description },
-    {name: "viewport", content: "width=device-width, initial-scale=1"},
-    {}
+    {name: "viewport", content: "width=device-width, initial-scale=1"}
   ]
 
   return (
     <div className={ styles.page }>
       <Helmet
         title={ metaTitle }
+        link={ link }
         meta={ meta }
       />
       <PageCap dark title={head.title} image={head.hero}/>
