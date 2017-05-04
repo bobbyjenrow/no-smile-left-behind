@@ -1,7 +1,7 @@
 .wrapper, .rowWrapper{
   display: flex;
   width: 100%;
-  padding: .7rem;
+  padding: .5rem;
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
@@ -13,38 +13,51 @@
   flex-flow: row nowrap;
   align-self: flex-start;
   justify-content: space-between;
+  align-items: center;
   max-width: 90%;
 
 
 }
 .label{
   width: 100%;
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.4rem;
   font-family: "Poppins", sans-serif;
+  @media (min-width: 420px){
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+
+  }
 }
 .radioLabel{
 
 }
 .checkboxLabel{
-  font-size: 1rem;
+  font-size: .8rem;
+  @media (min-width: 420px){
+    font-size: 1rem;
+  }
 
 }
 
 .textInput, .textArea {
+  height: 1.8rem;
   outline: 0;
   width: 90%;
   padding: .5rem;
   border-radius: 3px;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-family: inherit;
   color: var(--colorPrimary);
   border: 1px solid var(--colorPrimary);
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-
   &:focus{
     width: 100%;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  }
+  @media (min-width: 420px){
+    height: 3rem;
+    font-size: 1.4rem;
   }
 }
 
@@ -53,6 +66,9 @@
 .textArea{
   resize: none;
   line-height: 1.4rem;
+  @:focus{
+    height: 8rem;
+  }
 }
 .radio{
 

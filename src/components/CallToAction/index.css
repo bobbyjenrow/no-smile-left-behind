@@ -4,9 +4,8 @@
 .cta{
   z-index: 99;
   margin: auto;
-  margin-top: calc(var(--headerHeight) + 1rem);
   margin-bottom: 5rem;
-  max-width: 60rem;
+  max-width: 320px;
   display:  flex;
   flex-flow: column nowrap;
   justify-content: center;
@@ -19,48 +18,68 @@
   color: var(--colorNeutralLight);
 
   @media (min-width: 420px){
-    margin-top: calc(var(--headerHeight) + 5rem);
+    margin-top: calc(var(--headerHeight));
+    max-width: 60rem;
   }
 }
 
 .headline{
-  font-size: 3rem;
-  line-height: 4rem;
+  font-size: 2rem;
+  line-height: 3rem;
   @media (min-width: 420px) and (max-width: 848px){
     font-size: 3.5rem;
+    line-height: 4rem;
   }
   @media (min-width: 849px){
     font-size: 4.5rem;
+    line-height: 5rem;
+
   }
 
 }
 .tagline{
-  font-size: 1.2rem;
-  line-height:  1.8rem;
+  font-size: 1rem;
+  line-height:  1.4rem;
   max-width: 40rem;
   font-family: 'Open Sans', sans-serif;
+  margin: .5rem 0rem;
   @media (min-width: 420px) and (max-width: 848px){
     font-size: 1.4rem;
+    line-height: 1.8rem;
   }
   @media (min-width: 849px){
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+    line-height: 2rem;
   }
 
 
 }
 .splitTitle{
-  margin-bottom: 2rem;
-  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
   color: var(--colorSecondary);
+  @media (min-width: 420px) and (max-width: 848px){
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+  }
+  @media (min-width: 849px){
+    font-size: 2rem;
+    line-height: 3rem;
+  }
 }
 
 .split{
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   justify-content: space-bewteen;
   align-items: center;
-  @media (max-width: 300px){
-      justify-content: center;
+  max-width: 320px;
+  @media (min-width: 420px){
+    max-width: 420px;
+  }
+  @media (min-width: 421px){
+    min-width: 420px;
+    max-width: 20rem;
   }
 }
 .subheading1{
@@ -71,14 +90,14 @@
   font-size: 1rem;
   height: 100%;
   padding: 0 1rem;
-  line-height: 2rem;
-  width: 8rem;
-  @media (min-width: 420px) and (max-width: 519px){
+  line-height: 1rem;
+  width: 50%;
+  /*@media (min-width: 420px) and (max-width: 519px){
     width: 10rem;
   }
   @media (min-width: 520px){
     width: 12rem;
-  }
+  }*/
 }
 
 .subheading2{
@@ -89,14 +108,14 @@
   font-size: 1rem;
   height:  100%;
   padding: 0 1rem;
-  line-height: 2rem;
-  width: 8rem;
-  @media (min-width: 420px) and (max-width: 519px){
+  line-height: 1rem;
+  width: 50%;
+  /*@media (min-width: 420px) and (max-width: 519px){
     width: 10rem;
   }
   @media (min-width: 520px){
     width: 12rem;
-  }
+  }*/
 }
 
 .h3{

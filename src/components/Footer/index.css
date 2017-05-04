@@ -19,6 +19,9 @@
     max-width: var(--maxWidth);
   }
 }
+.link{
+  width: 100%;
+}
 
 /*.link{
   margin: .5rem;

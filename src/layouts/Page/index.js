@@ -61,7 +61,7 @@ const Page = (
         link={ link }
         meta={ meta }
       />
-      <PageCap full dark title={head.title} image={head.hero}/>
+      <PageCap full dark title={head.title} subtitle={head.subtitle} image={head.hero}/>
 
       <Footer />
     </div>

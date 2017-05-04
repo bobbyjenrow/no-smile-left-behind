@@ -8,10 +8,10 @@ const Footer = () => (
   <div className={styles.wrapper}>
     <footer className={styles.footer}>
       <Link className={styles.link} to={'/'}>
-        <Button secondary big>Patient Registry</Button>
+        <Button secondary fill>Patient Registry</Button>
       </Link>
       <Link className={styles.link} to={'/contact'}>
-        <Button secondary big>Request Services</Button>
+        <Button secondary fill>Request Services</Button>
       </Link>
     </footer>
   </div>

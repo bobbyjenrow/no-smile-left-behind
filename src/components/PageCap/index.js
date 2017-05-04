@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import styles from './index.css'
 import * as cx  from 'classnames'
 
-const PageCap = ({title, full, image, primary, secondary, light, dark, gradient})=>{
+const PageCap = ({title, subtitle, full, image, primary, secondary, light, dark, gradient})=>{
   return(
   <div>
   <div className={cx({
@@ -21,12 +21,15 @@ const PageCap = ({title, full, image, primary, secondary, light, dark, gradient}
     </div>
   </div>
   <h1 className={styles.title}>{title}</h1>
+  <h2 className={styles.subtitle}>{subtitle}</h2>
+
   </div>
   )
 }
 
 PageCap.propTypes = {
   title:  PropTypes.string,
+  subtitle:  PropTypes.string,  
   image: PropTypes.string,
   gradient: PropTypes.boolean,
   primary: PropTypes.boolean,

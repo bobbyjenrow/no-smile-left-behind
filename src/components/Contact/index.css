@@ -1,6 +1,6 @@
 .form{
-  margin: 1rem auto;
-  padding: 2rem;
+  margin: auto;
+  padding: 1rem;
   min-width: 300px;
   display: flex;
   flex-flow: column nowrap;
@@ -47,5 +47,5 @@
 }
 .submit{
   width: 50%;
-  margin-top: 2rem;
+  margin-top: .8rem;
 }

@@ -3,7 +3,7 @@ import cx from "classnames"
 
 import styles from "./index.css"
 
-const Button = ({ className, secondary, light, big, ...otherProps }) => (
+const Button = ({ className, secondary, light,fill, big, ...otherProps }) => (
   <span
     role="button"
     { ...otherProps }
@@ -13,6 +13,7 @@ const Button = ({ className, secondary, light, big, ...otherProps }) => (
       [styles.secondary]: secondary,
       [styles.light]: light,
       [styles.big]: big,
+      [styles.fill]: fill
     }) }
   />
 )
@@ -20,9 +21,10 @@ const Button = ({ className, secondary, light, big, ...otherProps }) => (
 Button.propTypes = {
   children: PropTypes.node,
   className: PropTypes.string,
-  secondary: PropTypes.bool,
-  light: PropTypes.bool,
-  big: PropTypes.bool,
+  secondary: PropTypes.boolean,
+  light: PropTypes.boolean,
+  big: PropTypes.boolean,
+  fill: PropTypes.boolean
 }
 
 Button.displayName = "Button"

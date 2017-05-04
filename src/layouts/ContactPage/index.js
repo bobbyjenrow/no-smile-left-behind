@@ -5,7 +5,7 @@ import warning from "warning"
 import { joinUri } from "phenomic"
 
 // import Loading from "../../components/Loading"
-import Footer from "../../components/Footer"
+import ContactFooter from "../../components/ContactFooter"
 import PageCap from '../../components/PageCap'
 import Contact from '../../components/Contact'
 
@@ -63,9 +63,9 @@ const ContactPage = (
         link={ link }
         meta={ meta }
       />
-      <PageCap full dark title={head.title} image={head.hero}/>
+      <PageCap full dark title={head.title} subtitle={head.subtitle} image={head.hero}/>
       <Contact />
-      <Footer />
+      <ContactFooter />
     </div>
   )
 }
