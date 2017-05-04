@@ -1,4 +1,6 @@
-import React, { PropTypes } from "react"
+import React from "react"
+import PropTypes from 'prop-types'
+
 import cx from "classnames"
 
 import styles from "./index.css"
@@ -21,10 +23,10 @@ const Button = ({ className, secondary, light,fill, big, ...otherProps }) => (
 Button.propTypes = {
   children: PropTypes.node,
   className: PropTypes.string,
-  secondary: PropTypes.boolean,
-  light: PropTypes.boolean,
-  big: PropTypes.boolean,
-  fill: PropTypes.boolean
+  secondary: PropTypes.bool,
+  light: PropTypes.bool,
+  big: PropTypes.bool,
+  fill: PropTypes.bool
 }
 
 Button.displayName = "Button"

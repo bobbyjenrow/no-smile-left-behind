@@ -1,4 +1,5 @@
-import React, {PropTypes} from  'react'
+import React from  'react'
+import PropTypes from 'prop-types'
 import cx from 'classnames'
 import styles from './index.css'
 
@@ -26,12 +27,12 @@ const BackgroundImage = ({height, image, children, primary, secondary, light, da
 BackgroundImage.propTypes = {
   height: PropTypes.string,
   image: PropTypes.string,
-  children: PropTypes.boolean,
+  children: PropTypes.bool,
   primary: PropTypes.node,
-  secondary: PropTypes.boolean,
-  light: PropTypes.boolean,
-  dark: PropTypes.boolean,
-  gradient: PropTypes.boolean,
+  secondary: PropTypes.bool,
+  light: PropTypes.bool,
+  dark: PropTypes.bool,
+  gradient: PropTypes.bool,
 }
 
 export default BackgroundImage

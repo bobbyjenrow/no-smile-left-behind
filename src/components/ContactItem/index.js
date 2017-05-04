@@ -120,8 +120,8 @@ const ContactItem = ({title, value, onChange, type, caption})=>{
 
 ContactItem.propTypes = {
   title: PropTypes.string,
-  type: PropTypes.boolean,
-  caption: PropTypes.boolean,
+  type: PropTypes.bool,
+  caption: PropTypes.bool,
   value: PropTypes.string,
   onChange: PropTypes.function
 }

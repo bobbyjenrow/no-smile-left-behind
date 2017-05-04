@@ -31,8 +31,8 @@ class NavItem extends Component{
 
 NavItem.propTypes = {
   item: PropTypes.object,
-  secondary: PropTypes.boolean,
-  primary: PropTypes.boolean
+  secondary: PropTypes.bool,
+  primary: PropTypes.bool
 
 }
 
