@@ -7,7 +7,7 @@ import Page from "./layouts/Page"
 import PageError from "./layouts/PageError"
 import Homepage from "./layouts/Homepage"
 import Post from "./layouts/Post"
-import MyPage from './layouts/MyPageState'
+import MyPage from './layouts/MyPage'
 import ContactPage from './layouts/ContactPage'
 
 const PageContainer = (props) => (

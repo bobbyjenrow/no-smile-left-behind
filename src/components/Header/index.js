@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './index.css';
 
 import Logo from 'Components/Logo/index.js'
-import Nav from  'Components/CollapseNav/index.js'
+import Nav from  'Components/Nav'
 import data from 'Root/src/appData'
 
 

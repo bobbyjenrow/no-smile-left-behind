@@ -1,16 +1,18 @@
 import React, { Component, PropTypes } from "react"
-import Helmet from "react-helmet"
-import warning from "warning"
+// import Helmet from "react-helmet"
+// import warning from "warning"
 
 import CallToAction from '../../components/CallToAction/index.js'
 // import Loading from "../../components/Loading"
 
-import styles from "./index.css"
-
-class MyPage extends Component(
+class MyPage extends Component{
+  constructor(props){
+    super(props);
+    this.head = this.props.head;
+  }
   render(){
     return (
-        <CallToAction cta={head.cta} hero={head.hero}/>
+        <CallToAction cta={this.head.cta} hero={this.head.hero}/>
     )}
 }
 
