@@ -2,20 +2,19 @@ import React from "react"
 // import PropTypes from 'prop-types'
 import styles from './index.css'
 
-var text = "No Smile Left Behind \n 1448 Brinkstone Ln \n Boulder, CO 49233";
-
 const ContactFooter = ()=>{
+  var text = "No Smile Left Behind \n 1448 Brinkstone Ln \n Boulder, CO 49233";
+
   return(
   <div className={styles.wrapper}>
     <footer className={styles.footer}>
-      <div className={styles.left}>
+      <div className={styles.info}>
         {
           text.split("\n ").map(i=>{
-            <div className={styles.address}>{i}</div>
+            return <p className={styles.address}>{i}</p>
           })
         }
       </div>
-      <div className={styles.right}></div>
     </footer>
   </div>
   )

@@ -8,6 +8,8 @@ import { joinUri } from "phenomic"
 import ContactFooter from "../../components/ContactFooter"
 import PageCap from '../../components/PageCap'
 import Contact from '../../components/Contact'
+import Button from '../../components/Button'
+import {Link} from 'phenomic'
 
 import styles from "./index.css"
 
@@ -65,6 +67,10 @@ const ContactPage = (
       />
       <PageCap full dark title={head.title} subtitle={head.subtitle} image={head.hero}/>
       <Contact />
+      <div className={styles.patients}>
+        <div className={styles.ptext}>Are you a patient? Register here:</div>
+        <Link className={styles.link} to="/patients"><Button secondary className={styles.pbutton}><label>Register</label></Button></Link>
+      </div>
       <ContactFooter />
     </div>
   )

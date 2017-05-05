@@ -66,7 +66,7 @@
 .textArea{
   resize: none;
   line-height: 1.4rem;
-  @:focus{
+  &:focus{
     height: 8rem;
   }
 }

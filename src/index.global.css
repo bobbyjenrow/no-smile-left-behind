@@ -38,6 +38,9 @@ body {
   line-height: 1.5rem;
   /* system font https://medium.com/designing-medium/system-shock-6b1dc6d6596f */
   font-family: 'Open Sans', sans-serif;
+  @media (min-height 860){
+    overflow-y: hidden;
+  }
 }
 h1,h2,h3,h4,h5,h6{
   /*font-family: 'Nunito', sans-serif;*/

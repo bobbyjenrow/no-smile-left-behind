@@ -8,7 +8,7 @@ const Footer = () => (
   <div className={styles.wrapper}>
     <footer className={styles.footer}>
       <Link className={styles.link} to={'/'}>
-        <Button secondary fill>Patient Registry</Button>
+        <Button secondary fill>Patient Registration</Button>
       </Link>
       <Link className={styles.link} to={'/contact'}>
         <Button secondary fill>Request Services</Button>

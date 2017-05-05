@@ -13,12 +13,25 @@
   width:  100%;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-bewteen;
 }
 
 .left{
-  text-align: left;
+  text-align: justify;
+  order: 0;
+}
+
+.center{
+  text-align: justify;
+  order: 1;
 }
 .right{
-  text-align: right;
+  text-align: justify;
+  order: 0;
+}
+
+.address{
+  font-size: 1rem;
+  margin: 0;
+  line-height: 1.4rem;
 }

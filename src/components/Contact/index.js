@@ -43,24 +43,9 @@ class Contact extends Component{
         isOrg &&
          <ContactItem type="text" title="org" caption="Organization" onChange={this.handleStateChange} />
       }
-     <ContactItem type="text" title="title" caption="Message Title" onChange={this.handleStateChange} />
+      <ContactItem type="text" title="title" caption="Subject" onChange={this.handleStateChange} />
       <ContactItem type="textarea" title="message" caption="Message" onChange={this.handleStateChange} />
       <Button secondary className={styles.submit} onClick={this.handleSubmit} > <label>Submit</label> </Button>
-      {/* <label className={styles.label} htmlFor="name">Name</label>
-      <input id="name" value={this.state.name} onChange={this.handleNameChange} type="text" className={styles.name}/>
-      <div className={styles.isOrgRow}>
-        <hr className={styles.hr}/>
-        <input id="isOrg" value={this.state.isOrg} onChange={this.handleIsOrgChange} type="checkbox" className={styles.isOrg}/>
-        <label className={styles.label} htmlFor="isOrg">I represent an organization</label>
-        <hr className={styles.hr}/>
-      </div>
-      <div className={styles.orgRow} >
-        <label className={styles.label} htmlFor="org">Organization</label>
-        <input id="org" value={this.state.org} onChange={this.handleOrgChange} type="text" className={styles.org}/>
-      </div>
-      <label className={styles.label} htmlFor="message">Message</label>
-      <textarea id="message" value={this.state.message} onChange={this.handleMessageChange} className={styles.message}/>
-      <Button className={styles.submit} onClick={this.handleSubmit} > <label>Submit</label> </Button> */}
     </form>
     )
   }

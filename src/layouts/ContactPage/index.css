@@ -1,7 +1,7 @@
 .page {
   display: flex;
   flex-direction: column;
-  margin-bottom: var(--footerHeight);
+
 }
 
 .wrapper {
@@ -74,4 +74,28 @@
   & img {
     max-width: 100%;
   }
+}
+
+.link{
+  width: 50%;
+  height: 100%;
+}
+
+.patients{
+  margin: 1.5rem auto;
+  padding: 1rem;
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--colorNeutralLight);
+  display: flex;
+  flex-flow: row nowrap;
+  max-width: 320px;
+  border-top: 2px solid var(--colorPrimary);
+}
+.ptext{
+  text-align: left;
+  width: 50%;
+}
+.pbutton{
+  width: 100%;
 }
