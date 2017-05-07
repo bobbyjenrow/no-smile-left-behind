@@ -21,7 +21,7 @@ const PageCap = ({title, subtitle, full, image, primary, secondary, light, dark,
     </div>
   </div>
   <h1 className={styles.title}>{title}</h1>
-  <h2 className={styles.subtitle}>{subtitle.split('\\n').map(i=>(<p>{i}</p>))}</h2>
+  <h2 className={styles.subtitle}>{subtitle.split('\\n').map(i=>(<span>{i}</span>))}</h2>
 
   </div>
   )
