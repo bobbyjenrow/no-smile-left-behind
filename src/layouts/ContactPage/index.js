@@ -8,7 +8,7 @@ import { joinUri } from "phenomic"
 import Footer from "../../components/Footer"
 import PageCap from '../../components/PageCap'
 import Contact from '../../components/Contact'
-import ContactFooter from '../../components/ContactFooter/'
+// import ContactFooter from '../../components/ContactFooter/'
 
 import styles from "./index.css"
 
