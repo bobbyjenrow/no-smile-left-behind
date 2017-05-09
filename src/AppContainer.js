@@ -11,7 +11,6 @@ import Content from "./components/Content"
 
 
 const AppContainer = (props) => {
-  window.addEventListener("hashchange", function() { scrollBy(0, -40) });
   return(
   <Container>
     <DefaultHeadMeta />

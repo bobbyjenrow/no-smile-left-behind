@@ -7,11 +7,14 @@
   position: relative;
 }
 .content{
-  margin-left: 160px;
-  margin-right: 5px;
   border-radius: 2px;
   background-color: color(var(--colorNeutralLight) a(.9));
   padding: 7%;
+  @media (min-width: 420px){
+    margin-left: 160px;
+    margin-right: 5px;
+    text-align: center;
+  }
 }
 .content-center{
   border-radius: 2px;
@@ -20,6 +23,7 @@
   align-self: center;
 }
 .sidebar{
+  visibility: collapse;
   display: flex;
   flex-flow: column nowrap;
   position: fixed;
@@ -32,7 +36,9 @@
   max-width: 155px;
 
   left: 0;
-
+  @media (min-width: 420px){
+    visibility: visible;
+  }
 }
 .sidebarItem{
 }

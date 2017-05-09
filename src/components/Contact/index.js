@@ -1,6 +1,7 @@
 import React, {Component} from "react"
 // import PropTypes from 'prop-types'
 import styles from './index.css'
+import {Link} from 'phenomic'
 
 import Button from '../Button'
 import ContactItem from '../ContactItem'
@@ -35,6 +36,7 @@ class Contact extends Component{
   render(){
     const isOrg = this.state.isOrg;
     return(
+    <div>
     <form className={styles.form}>
       <ContactItem type="text" title="name" caption="Name" onChange={this.handleStateChange} />
       <ContactItem type="checkbox" title="isOrg"
@@ -47,6 +49,11 @@ class Contact extends Component{
       <ContactItem type="textarea" title="message" caption="Message" onChange={this.handleStateChange} />
       <Button secondary className={styles.submit} onClick={this.handleSubmit} > <label>Submit</label> </Button>
     </form>
+      <div className={styles.patients}>
+        <div className={styles.ptext}>Are you a patient? Register here:</div>
+        <Link className={styles.link} to="/patients"><Button secondary className={styles.pbutton}><label>Register</label></Button></Link>
+      </div>
+    </div>
     )
   }
 }

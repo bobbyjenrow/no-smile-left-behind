@@ -20,9 +20,9 @@ const PageCap = ({title, menu, subtitle, full, image, primary, secondary, light,
     </div>
   </div>
   <div className={cx({
-    [styles.right]: menu.right,
-    [styles.left]: menu.left,
-    [styles.center]: menu.center
+    [styles.right]: (menu == "right"),
+    [styles.left]: (menu == "left"),
+    [styles.center]: (menu == "center")
   })}>
   <h1 className={styles.title}>{title}</h1>
   {

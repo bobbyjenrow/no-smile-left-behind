@@ -76,26 +76,17 @@
   }
 }
 
-.link{
-  width: 50%;
-  height: 100%;
-}
 
-.patients{
-  margin: 1.5rem auto;
-  padding: 1rem;
-  font-weight: 600;
-  font-size: 1rem;
-  color: var(--colorNeutralLight);
+.contentContainer{
+  max-width: 980px;
   display: flex;
-  flex-flow: row nowrap;
-  max-width: 320px;
-  border-top: 2px solid var(--colorPrimary);
-}
-.ptext{
-  text-align: left;
-  width: 50%;
-}
-.pbutton{
-  width: 100%;
+  flex-flow: row wrap;
+  justify-content:center;
+  align-items: center;
+  align-content: center;
+  @media (min-width: 820px){
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 auto;
+  }
 }

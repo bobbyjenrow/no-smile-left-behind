@@ -1,17 +1,21 @@
 .wrapper{
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  background-color: color(var(--colorNeutralDark) a(0.9));
+  min-width: 320px;
   height: auto;
-  background-color: color(var(--colorNeutralLight) a(0.5));
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
 }
 
 .footer{
+  color: var(--colorNeutralLight);
+  text-align: center;
   margin: auto;
+  height: 100%;
   width:  100%;
   display: flex;
+  flex-flow: column nowrap;
   align-items: center;
   justify-content: space-bewteen;
 }
