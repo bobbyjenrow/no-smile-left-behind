@@ -1,7 +1,7 @@
 ---
 title: No Smile Left Behind
 layout: MyPage
-hero: http://res.cloudinary.com/ds0f4qyyt/image/upload/s--9nzqRiP9--/c_scale,q_jpegmini,w_3406/v1492714068/baby_minified.jpg
+hero: http://res.cloudinary.com/ds0f4qyyt/image/upload/s--fBuRsKCE--/q_jpegmini/v1494354894/girlSmile_slw47c.jpg
 # hero credit: https://www.flickr.com/photos/pslee999/15589950511/
 cta:
   headline: We Deliver Dentistry.
@@ -9,7 +9,7 @@ cta:
   split: Get Started Today!
   link1:
     label: Patients
-    url:  /patients
+    url:  /construction
     phrase: Register Now
   link2:
     label: Organizations

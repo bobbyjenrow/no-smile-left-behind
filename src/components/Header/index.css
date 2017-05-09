@@ -9,6 +9,7 @@
   right: 0;
   z-index: 99999;
   transition: 0.3s ease-in;
+
   &:hover{
     background-color: var(--colorNeutralLight);
   }

@@ -8,7 +8,7 @@ import {Link} from "phenomic"
 const Logo = ()=>{
   return(
     <Link to="/">
-      <Svg id="logo" className={styles.svg} svg={logo} height={"100px"} width={"300px"}  />
+      <Svg id="logo" className={styles.svg} svg={logo} height={"140px"} width={"320px"}  />
     </Link>
   )
 }

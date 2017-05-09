@@ -71,8 +71,11 @@ const Page = (
         link={ link }
         meta={ meta }
       />
-      <PageCap menu="left" full dark title={head.title} subtitle={head.subtitle} image={head.hero}/>
-        <LongContent sections={head.sections} body={body} />
+      <PageCap menu={head.bodySlant} full dark title={head.title} subtitle={head.subtitle} image={head.hero}/>
+      {
+        <LongContent bodySlant={head.bodySlant} sections={head.sections} body={body} />
+      }
+        {children}
       <Footer />
     </div>
   )

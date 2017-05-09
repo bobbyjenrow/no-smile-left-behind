@@ -7,7 +7,7 @@ import styles from "./index.css"
 const Footer = () => (
   <div className={styles.wrapper}>
     <footer className={styles.footer}>
-      <Link className={styles.link} to={'/'}>
+      <Link className={styles.link} to={'/construction'}>
         <Button secondary fill>Patient Registration</Button>
       </Link>
       <Link className={styles.link} to={'/contact'}>

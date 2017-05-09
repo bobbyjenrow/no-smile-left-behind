@@ -10,11 +10,7 @@
   border-radius: 2px;
   background-color: color(var(--colorNeutralLight) a(.9));
   padding: 7%;
-  @media (min-width: 420px){
-    margin-left: 160px;
-    margin-right: 5px;
-    text-align: center;
-  }
+  text-align: center;
 }
 .content-center{
   border-radius: 2px;
@@ -30,7 +26,6 @@
   border-radius: 2px;
   background-color: color(var(--colorPrimary) a(0.8));
   width: 100%;
-  padding: 1rem;
   list-style: none;
   color: var(--colorNeutralLight);
   max-width: 155px;
@@ -41,10 +36,48 @@
   }
 }
 .sidebarItem{
+  width:  100%;
+  &:hover{
+    background-color: var(--colorNeutralLight);
+    color: var(--colorPrimary);
+    cursor: pointer;
+    border: 0 0 1px  1px solid var(--colorPrimary);
+  }
+
 }
 .sidebarLink{
   text-decoration: none;
+  padding: 1rem;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  &:hover{
+    text-decoration: none;
+  }
+
 }
 .active{
   text-decoration: underline;
+}
+
+.left{
+  text-align: center;
+  @media (min-width: 420px){
+    margin-left: 160px;
+    margin-right: 5px;
+    text-align: left;
+  }
+}
+.right{
+  text-align: center;
+  @media (min-width: 420px){
+    margin-left: 5px;
+    margin-right: 160px;
+    text-align: left;
+  }
+}
+.center{
+  @media (min-width: 420px){
+    margin:auto;
+    text-align: left;
+  }
 }
