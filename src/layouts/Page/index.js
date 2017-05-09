@@ -8,7 +8,7 @@ import { joinUri } from "phenomic"
 // import Loading from "../../components/Loading"
 import Footer from "../../components/Footer"
 import PageCap from '../../components/PageCap'
-
+import LongContent from '../../components/LongContent'
 import styles from "./index.css"
 
 const Page = (
@@ -36,7 +36,8 @@ const Page = (
   const socialImage = head.hero && head.hero.match("://") ? head.hero
     : joinUri(process.env.PHENOMIC_USER_URL, head.hero)
 
-  const link=[{rel:"icon", href:pkg.favicon}]
+  const link=[
+    {rel:"icon", href:pkg.favicon}]
 
   const meta = [
     { property: "og:type", content: "article" },
@@ -63,8 +64,8 @@ const Page = (
         link={ link }
         meta={ meta }
       />
-      <PageCap full dark title={head.title} subtitle={head.subtitle} image={head.hero}/>
-
+      <PageCap menu="left" full dark title={head.title} subtitle={head.subtitle} image={head.hero}/>
+        <LongContent sections={head.sections} body={body} />
       <Footer />
     </div>
   )

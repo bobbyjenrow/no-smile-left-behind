@@ -3,7 +3,6 @@ const data = {
     links: [
       {url: "/about", title: 'About'},
       {url: 'patients', title: "Patients"},
-      {url: "/research", title: 'Research'},
       {url: '/contact', title: 'Contact'}
     ]
   }

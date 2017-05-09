@@ -10,7 +10,9 @@ import Header from "./components/Header"
 import Content from "./components/Content"
 
 
-const AppContainer = (props) => (
+const AppContainer = (props) => {
+  window.addEventListener("hashchange", function() { scrollBy(0, -40) });
+  return(
   <Container>
     <DefaultHeadMeta />
     <Header />
@@ -18,7 +20,7 @@ const AppContainer = (props) => (
       { props.children }
     </Content>
   </Container>
-)
+)}
 
 AppContainer.propTypes = {
   children: PropTypes.node,

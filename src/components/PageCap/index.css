@@ -18,7 +18,8 @@
   align-items: center;
 }
 .title{
-  margin: 1rem 0 0 0;
+  margin-top: 1rem;
+  margin: 4rem;
   font-size: 2rem;
   line-height: 3rem;
   display:  block;
@@ -32,7 +33,9 @@
   text-align: center;
   color: var(--colorNeutralLight);
 }
-
+.subline{
+  line-height: .8rem;
+}
 .gradient{
     background-image: linear-gradient(to top, color(var(--colorNeutralLight) a(0.9)), color(var(--colorNeutralDark) a(0.5)));
 }
@@ -63,5 +66,19 @@
   background-position: center;
 
   justify-content: flex-start;
+
+}
+
+.caption{
+  width: 100%;
+}
+.right{
+    padding-right: 160px;
+}
+.left{
+  padding-left: 160px;
+
+}
+.center{
 
 }

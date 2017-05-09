@@ -1,0 +1,26 @@
+.wrapper{
+
+}
+.sidebar{
+  visibility: visible;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 2px;
+  background-color: color(var(--colorPrimary) a(0.8));
+  width: 150px;
+  padding: 1rem;
+  position: absolute;
+  list-style: none;
+  color: var(--colorNeutralLight);
+
+}
+.sidebarItem{
+}
+.sidebarLink{
+  text-decoration: none;
+}
+.active{
+  text-decoration: underline;
+}

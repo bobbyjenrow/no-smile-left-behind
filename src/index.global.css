@@ -38,6 +38,7 @@ body {
   line-height: 1.5rem;
   /* system font https://medium.com/designing-medium/system-shock-6b1dc6d6596f */
   font-family: 'Open Sans', sans-serif;
+  padding-top: var(--headerHeight);
   @media (min-height 860){
     overflow-y: hidden;
   }
@@ -102,5 +103,28 @@ hr {
   transition: 0.3s ease-in;
   &:hover{
     opacity: 0.5;
+  }
+}
+
+
+.section{
+  & h2 {
+    color: var(--colorPrimary);
+  }
+  & h3 {
+    color: var(--colorPrimary);
+  }
+  border-radius: 2px;
+  padding: 2rem 1rem;
+  transition: .5s all;
+  &:target{
+    color: var(--colorNeutralLight);
+    background-color: var(--colorPrimary);
+    & h2 {
+      color: var(--colorNeutralLight);
+    }
+    & h3 {
+      color: var(--colorNeutralLight);
+    }
   }
 }

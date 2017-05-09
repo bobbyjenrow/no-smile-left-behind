@@ -1,4 +1,4 @@
 .content {
   width: 100%;
-  margin: var(--headerHeight) 0 var(--footerHeight) 0;
+  margin: 0 0 var(--footerHeight) 0;
 }
