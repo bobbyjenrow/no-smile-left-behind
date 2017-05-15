@@ -19,7 +19,7 @@
     "prod": "./scripts/deploy-prod.sh"
   },
   "phenomic": {
-    "CNAME": false
+    "CNAME": true
   },
   "#babel": "webpack-(development|production) are useful for webpack 2, otherwise use development|production",
   "babel": {

@@ -10,10 +10,10 @@ import styles from './index.css'
 // ]
 
 const LongContent = ({body, head})=>{
-  var adjustScroll = (e)=>{
-    e.preventDefault();
-    return null
-  }
+  // var adjustScroll = (e)=>{
+  //   e.preventDefault();
+  //   return null
+  // }
   return(
     <div className={styles.pageWrap}>
 
@@ -25,7 +25,7 @@ const LongContent = ({body, head})=>{
             {
               head.sections.map((i,x) =>(
                 <li key={x} className={styles.sidebarItem}>
-                <a onClick={adjustScroll()} className={styles.sidebarLink} href={"#" + i.title.split(' ').join('-').toLowerCase()}>{i.title}</a>
+                <a className={styles.sidebarLink} href={"#" + i.title.split(' ').join('-').toLowerCase()}>{i.title}</a>
                 </li>
               ))
             }
