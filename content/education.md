@@ -1,5 +1,5 @@
 ---
-title: Patient Info
+title: Patient Education
 bodySlant: left
 hero: http://res.cloudinary.com/ds0f4qyyt/image/upload/s--ST9NKaaB--/c_scale,q_jpegmini,w_3525/v1493834338/smiles1_falmrt.jpg
 # hero credit: https://www.flickr.com/photos/pslee999/15589950511/
@@ -42,10 +42,10 @@ sections:
 
 <p>This <i>does not</i> mean that you/your child can never enjoy sugar or starch! Instead, the diet must be balanced with other types of foods including proteins and healthy fats. Examples of foods which will promote oral health are vegetables, lean meats, fish, nuts, eggs, beans, and more. When eating or drinking sugar, do so as part of a meal – not as a snack – because chewing the non-sugary foods in the meal will help to clear the sugary food off the teeth, much like tooth-brushing does. This prevents the sugar from remaining on the teeth for a long period of time and feeding the plaquewhich causes tooth decay.</p>
 
-<h3>Frequency vs. amount</h3>
+<h4>Frequency vs. amount</h4>
 
 
-<h3 class="section-subheader">Foods to Eat/Foods to Limit</h3>
+<h4 class="section-subheader">Foods to Eat/Foods to Limit</h4>
 
 <p><b>In general, sugary and starchy foods should be limited, but some common foods/drinks which are generally thought to be healthy are actually unhealthy and contribute to both tooth decay and poor general health. Whole foods should be the core of the diet.</b></p>
 
@@ -74,7 +74,7 @@ sections:
 
 <section id="tooth-decay" class="section patient-section">
 
-<h2 class="section-header">Tooth decay & it's consequences</h2>
+<h2 class="section-header">Tooth decay & its consequences</h2>
 <p><b>When the germs in plaque are unbalanced and overgrown, teeth begin to decay and break down.</b></p>
 
 <p>Tooth decay is the softening and eventual breakdown of the hard, mineralized parts of the tooth. This is the result of an unhealthy balance and amount of plaque in the mouth due to improper diet. The outermost layer of the tooth is the enamel, which is the hardest part of the body. Despite its hardness, it can be softened dramatically by sugar-eating germs. This softening can advance to the point that parts of the tooth break away or dissolve. This advanced form of tooth decay is known as a cavity.</p>
@@ -88,7 +88,7 @@ sections:
 
 <section id="gum-disease" class="section patient-section">
 
-<h2 class="section-header">Gum Disease and it's Consequences</h2>
+<h2 class="section-header">Gum Disease and its Consequences</h2>
 
 <p><b>The body’s response to plaque and tartar at and below the gumline can lead to permanent bone loss, loose teeth, and missing teeth.</b></p>
 

@@ -1,7 +1,7 @@
 ---
 title: No Smile Left Behind
 layout: MyPage
-hero: http://res.cloudinary.com/ds0f4qyyt/image/upload/s--fBuRsKCE--/q_jpegmini/v1494354894/girlSmile_slw47c.jpg
+hero: http://res.cloudinary.com/ds0f4qyyt/image/upload/v1492714068/baby_minified.jpg
 # hero credit: https://www.flickr.com/photos/pslee999/15589950511/
 cta:
   headline: We Deliver Dentistry.

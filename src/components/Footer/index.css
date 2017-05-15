@@ -15,12 +15,15 @@
   justify-content: center;
   margin: auto;
   max-width: 320px;
-  @media (min-width: 460px){
+  @media (--md){
     max-width: var(--maxWidth);
   }
+
 }
 .link{
-  width: 100%;
+  display: block;
+  height:auto;
+  width: 50%;
 }
 
 /*.link{

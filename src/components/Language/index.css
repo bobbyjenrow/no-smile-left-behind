@@ -1,0 +1,7 @@
+.wrapper{
+  text-align: center;
+}
+.label{
+  color: var(--colorPrimary);
+  font-size: .8rem;
+}

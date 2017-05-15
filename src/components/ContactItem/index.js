@@ -18,6 +18,7 @@ const ContactItem = ({title, value, onChange, type, caption})=>{
               <input
                 title={title}
                 type="text"
+                name={title}
                 className={cx({
                   [styles.input]: true,
                   [styles.textInput]: true
@@ -39,6 +40,7 @@ const ContactItem = ({title, value, onChange, type, caption})=>{
                 >{caption}</label>
                 <textarea
                   title={title}
+                  name={title}
                         className={cx({
                     [styles.input]: true,
                     [styles.textArea]: true
@@ -60,6 +62,7 @@ const ContactItem = ({title, value, onChange, type, caption})=>{
                 >{caption}</label>
                 <input
                   title={title}
+                  name={title}
                   type="radio"
                   className={cx({
                     [styles.input]: true,
@@ -82,6 +85,7 @@ const ContactItem = ({title, value, onChange, type, caption})=>{
                 >{caption}</label>
                 <input
                   title={title}
+                  name={title}
                   type="checkbox"
                   className={cx({
                     [styles.input]: true,
@@ -104,6 +108,7 @@ const ContactItem = ({title, value, onChange, type, caption})=>{
                   >{caption}</label>
                   <input
                     title={title}
+                    name={title}
                     type="text"
                     rows="4"
                     className={cx({
@@ -120,10 +125,10 @@ const ContactItem = ({title, value, onChange, type, caption})=>{
 
 ContactItem.propTypes = {
   title: PropTypes.string,
-  type: PropTypes.bool,
-  caption: PropTypes.bool,
+  type: PropTypes.string,
+  caption: PropTypes.string,
   value: PropTypes.string,
-  onChange: PropTypes.function
+  onChange: PropTypes.func
 }
 
 export default ContactItem

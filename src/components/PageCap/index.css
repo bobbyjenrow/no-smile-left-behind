@@ -76,14 +76,29 @@
 }
 .right{
   padding-right: 0;
-  @media (min-width: 420px){
+  @media (--sm){
     padding-right: 160px;
+  }
+  @media (--md){
+    padding-right: 21%;
+  }
+  @media (min-width: 1620px){
+    padding: 0;
   }
 }
 .left{
   padding-left: 0;
-  @media (min-width: 420px){
+  @media (--sm) and (max-width: 980px){
     padding-left: 160px;
+  }
+  @media (--md){
+    padding-left: 20%;
+  }
+  @media (--md){
+    padding-left: 18%;
+  }
+  @media (min-width: 1420px){
+    padding: 0;
   }
 }
 .center{

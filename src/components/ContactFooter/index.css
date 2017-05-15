@@ -1,15 +1,19 @@
 .wrapper{
-  background-color: color(var(--colorNeutralDark) a(0.9));
-  min-width: 320px;
-  height: auto;
+  background-color: color(var(--colorNeutralLight) a(0.9));
+  padding: 1rem;
+  min-width: 300px;
   display: flex;
+  flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  border-radius: 2px;
+  border-radius: 3px;
+  color: var(--colorNeutralDark);
+  @media (--sm){
+    min-width: 400px;
+  }
 }
 
 .footer{
-  color: var(--colorNeutralLight);
   text-align: center;
   margin: auto;
   height: 100%;

@@ -11,9 +11,9 @@ const Header = ()=>{
     <div className={styles.wrapper}>
       <header className={styles.header}>
       <Logo className={styles.logo}/>
-      <div className={styles.navWrapper}>
+
         <Nav  className={styles.nav} list={data.nav.links}/>
-      </div>
+
       </header>
     </div>
   )

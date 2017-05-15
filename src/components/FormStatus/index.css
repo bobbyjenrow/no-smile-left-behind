@@ -1,0 +1,10 @@
+.wrapper{
+  width: 100%;
+  padding: 1rem;
+}
+.fail{
+  background-color: red;
+}
+.success{
+  background-color: green;
+}

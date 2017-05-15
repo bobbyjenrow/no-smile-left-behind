@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Poppins');
+@import "./_font-sizing.css";
 /* Using global sytles is not recommended, prefer local styles via CSS Modules */
 
 /*
@@ -34,20 +35,10 @@ html {
 
 body {
   color: var(--colorText);
-  font-size: 1rem;
-  line-height: 1.5rem;
-  /* system font https://medium.com/designing-medium/system-shock-6b1dc6d6596f */
-  font-family: 'Open Sans', sans-serif;
-  padding-top: var(--headerHeight);
-  @media (min-height 860){
-    overflow-y: hidden;
-  }
-}
-h1,h2,h3,h4,h5,h6{
-  /*font-family: 'Nunito', sans-serif;*/
-  font-family: 'Poppins', sans-serif;
-}
+  font-family: var(--bodyFam);
+  margin-top: var(--headerHeight);
 
+}
 /*
  * .phenomic-HeadingAnchor
  *
@@ -58,6 +49,7 @@ h1,h2,h3,h4,h5,h6{
 
 :--headings {
   position: relative;
+  font-family: var(--headingFam)
 }
 
 :root {
@@ -108,6 +100,12 @@ hr {
 
 
 .section{
+  /*&:before{
+    display: block;
+    content: " ";
+    height: 150px;
+    visibility: hidden;
+  }*/
   & h2 {
     color: var(--colorPrimary);
   }
@@ -115,7 +113,7 @@ hr {
     color: var(--colorPrimary);
   }
   border-radius: 2px;
-  padding: 2rem 1rem;
+  padding: 1rem;
   transition: .5s all;
   &:target{
     color: var(--colorNeutralLight);
@@ -127,4 +125,30 @@ hr {
       color: var(--colorNeutralLight);
     }
   }
+}
+
+.bg-enter {
+  opacity: 0.01;
+}
+
+.bg-enter.bg-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.bg-leave {
+  opacity: 1;
+}
+
+.bg-leave.bg-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+.bg-appear {
+  opacity: 0.01;
+}
+
+.bg-appear.bg-appear-active {
+  opacity: 1;
+  transition: opacity .5s ease-in;
 }

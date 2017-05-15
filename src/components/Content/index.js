@@ -3,11 +3,22 @@ import PropTypes from 'prop-types'
 
 import styles from "./index.css"
 
-const Content = (props) => (
-  <div className={ styles.content }>
-    { props.children }
-  </div>
-)
+class Content extends React.Component{
+  constructor(props){
+    super(props)
+  }
+  componentWillMount(){
+
+  }
+
+  render(){
+    return(
+      <div className={ styles.content }>
+        { this.props.children }
+      </div>
+    )
+  }
+}
 
 Content.propTypes = {
   children: PropTypes.node,

@@ -1,7 +1,6 @@
 
 .wrapper{
-  width: 100%;
-  height: auto;
+  height:auto;
   background-color: color(var(--colorNeutralLight));
   position: fixed;
   top: 0;
@@ -13,20 +12,15 @@
   &:hover{
     background-color: var(--colorNeutralLight);
   }
-  @media screen and (min-width:  848px){
-      height: var(--headerHeight)
-  }
+
 }
 
 .header{
   margin: auto;
   max-width: var(--maxWidth);
-  height: 100%;
+  padding: 0 1rem;
   display: flex;
-  flex-flow: row;
-  flex-wrap: wrap;
-  flex-shrink: 10;
-  flex-direction: row;
+  flex-flow: row wrap;
   justify-content: center;
   align-items: center;
   @media screen and (min-width:  848px){
@@ -35,12 +29,8 @@
   }
 }
 
-.navWrapper{
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  @media (min-width:848px){
+.nav{
+  @media (--md){
       width: auto;
       height:  6.5rem;
   }

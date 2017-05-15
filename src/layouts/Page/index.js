@@ -5,11 +5,14 @@ import Helmet from "react-helmet"
 import warning from "warning"
 import { joinUri } from "phenomic"
 
-// import Loading from "../../components/Loading"
+import Loading from "../../components/Loading"
 import Footer from "../../components/Footer"
-import PageCap from '../../components/PageCap'
+// import PageCap from '../../components/PageCap'
 import LongContent from '../../components/LongContent'
 import styles from "./index.css"
+import BackgroundImage from '../../components/BackgroundImage'
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
+
 
 const Page = (
   {
@@ -71,11 +74,28 @@ const Page = (
         link={ link }
         meta={ meta }
       />
-      <PageCap menu={head.bodySlant} full dark title={head.title} subtitle={head.subtitle} image={head.hero}/>
       {
-        <LongContent bodySlant={head.bodySlant} sections={head.sections} body={body} />
+        isLoading ?
+            <Loading />
+          :
+          <div>
+          <ReactCSSTransitionGroup
+            transitionName="bg"
+            transitionEnterTimeout={500}
+            transitionLeaveTimeout={300}
+            transitionAppear={true}
+            transitionAppearTimeout={500}
+          >
+            <BackgroundImage key={1} dark image={head.hero} />
+            </ReactCSSTransitionGroup>
+
+            {
+              body &&
+                <LongContent head={head} body={body} />
+            }
+            {children}
+            </div>
       }
-        {children}
       <Footer />
     </div>
   )

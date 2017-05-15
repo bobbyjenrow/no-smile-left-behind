@@ -159,6 +159,10 @@ export default (config = {}) => {
           loader: "raw-loader",
 
         },
+        {
+          test: /\.yml$/,
+          loaders: [ "json-loader" , "yaml-loader"],
+        }
       ],
     },
 
@@ -221,7 +225,7 @@ export default (config = {}) => {
       filename: "[name].[hash].js",
     },
 
-    resolve: { 
+    resolve: {
       alias: {
         Root: path.resolve(__dirname, './'),
         Content: path.resolve(__dirname, './content'),

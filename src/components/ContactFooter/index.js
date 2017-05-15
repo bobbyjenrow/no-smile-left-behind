@@ -1,19 +1,20 @@
 import React from "react"
 import PropTypes from 'prop-types'
 import styles from './index.css'
+import data from '../../appData.js'
 
 import Social from '../Social'
 
 const ContactFooter = ({fb, twit, insta})=>{
-  var text = "No Smile Left Behind \n 1448 Brinkstone Ln \n Boulder, CO 49233";
+var text = data.address;
 
   return(
   <div className={styles.wrapper}>
     <footer className={styles.footer}>
       <section className={styles.info}>
         {
-          text.split("\n ").map(i=>{
-            return <p className={styles.address}>{i}</p>
+          text.map((i,x)=>{
+            return <p key={x} className={styles.address}>{i}</p>
           })
         }
       </section>
@@ -23,7 +24,13 @@ const ContactFooter = ({fb, twit, insta})=>{
       </section>
       <section className={styles.social}>
         {
+          twit ?
           <Social twit url={"https://www.facebook.com/805665149509549/photos/805668656175865/"}/>
+          : fb ?
+          <Social fb url={"https://www.facebook.com/805665149509549/photos/805668656175865/"}/>
+          : insta ?
+            <Social insta url={"https://www.facebook.com/805665149509549/photos/805668656175865/"}/>
+          : null
         }
       </section>
 
