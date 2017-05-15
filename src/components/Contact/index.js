@@ -48,7 +48,6 @@ class Contact extends Component{
   handleSubmit(e){
     e.preventDefault();
     window.console.log(JSON.stringify(this.state))
-    const {name, org, subject, message} = this.refs
     const formData = new FormData();
     formData.append("name", this.state.name);
     formData.append("org", this.state.org);
