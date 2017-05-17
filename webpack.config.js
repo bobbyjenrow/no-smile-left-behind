@@ -34,14 +34,16 @@ export default (config = {}) => {
         {
           // phenomic requirement
           test: /\.(md|markdown)$/,
-          loader: phenomicLoader,
-          query: {
-            context: path.join(__dirname, config.source),
-            // plugins: [
-            //   ...require("phenomic/lib/loader-preset-markdown").default
-            // ]
-            // see https://phenomic.io/docs/usage/plugins/
-          },
+          loaders: ['babel-loader', 'react-markdown-loader',
+          {loader:  phenomicLoader,
+            query: {
+              context: path.join(__dirname, config.source),
+              // plugins: [
+              //   ...require("phenomic/lib/loader-preset-markdown").default
+              // ]
+              // see https://phenomic.io/docs/usage/plugins/
+          },}],
+
         },
 
         // *.js => babel + eslint

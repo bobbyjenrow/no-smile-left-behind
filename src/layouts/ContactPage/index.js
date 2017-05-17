@@ -13,6 +13,8 @@ import styles from "./index.css"
 import BackgroundImage from '../../components/BackgroundImage'
 import Contact from '../../components/Contact'
 import ContactFooter from  '../../components/ContactFooter/'
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
+
 
 const ContactPage = (
   {
@@ -74,7 +76,15 @@ const ContactPage = (
         link={ link }
         meta={ meta }
       />
+      <ReactCSSTransitionGroup
+        transitionName="bg"
+        transitionEnterTimeout={500}
+        transitionLeaveTimeout={300}
+        transitionAppear={true}
+        transitionAppearTimeout={500}
+      >
       <BackgroundImage dark image={head.hero} />
+      </ReactCSSTransitionGroup>
       {
         isLoading ?
             <Loading />

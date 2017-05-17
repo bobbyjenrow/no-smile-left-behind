@@ -7,7 +7,7 @@ const data = {
     ]
   },
   lang: ['Spanish'],
-  contactEmail: 'jenrow.1@osu.edu',
+  contactEmail: 'nathan.becker@nosmileleftbehind.com',
   address:  ["No Smile Left Behind" , "82 Grove St", "Charleston, SC 29403"],
   mapsKey: "AIzaSyAQQkkBxIvcn2S9Iz_wYuclYdH-eWs1etw	"
 }

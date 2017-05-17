@@ -5,6 +5,8 @@ import Helmet from "react-helmet"
 import warning from "warning"
 import { joinUri } from "phenomic"
 
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
+
 import Loading from "../../components/Loading"
 import Footer from "../../components/Footer"
 import PageCap from '../../components/PageCap'
@@ -73,7 +75,15 @@ const ContactPage = (
         link={ link }
         meta={ meta }
       />
+      <ReactCSSTransitionGroup
+        transitionName="bg"
+        transitionEnterTimeout={500}
+        transitionLeaveTimeout={300}
+        transitionAppear={true}
+        transitionAppearTimeout={500}
+      >
       <BackgroundImage dark image={head.hero} />
+      </ReactCSSTransitionGroup>
       {
         isLoading ?
           <Loading />

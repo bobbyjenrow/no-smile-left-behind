@@ -32,7 +32,7 @@ sections:
 
 <h2 class="section-header">Diet</h2>
 
-<p><b>Diet is the single most important factor in determining not just oral health, but the body’s health.</b></p>
+<p><b>Diet is the single most important factor in determining not just oral health, but the body’s health.  For good oral health, sugars and processed starchy carbs should be limited.</b></p>
 
 <p>Sugar and some starches, which are both types of carbohydrates or “carbs”, lead directly to tooth decay and are a major factor contributing to gum disease, the two most common oral health problems.</p>
 
@@ -40,10 +40,7 @@ sections:
 
 <p>A common meal which demonstrates starch, sweet sugar, and sugar snuck into a food is a peanut butter and jelly sandwich. The bread is starchy, the jelly is sweet and sugary, and the peanut butter may have had sugar added to it by the manufacturer. Eaten frequently, this is a recipe for oral health problems.</p>
 
-<p>This <i>does not</i> mean that you/your child can never enjoy sugar or starch! Instead, the diet must be balanced with other types of foods including proteins and healthy fats. Examples of foods which will promote oral health are vegetables, lean meats, fish, nuts, eggs, beans, and more. When eating or drinking sugar, do so as part of a meal – not as a snack – because chewing the non-sugary foods in the meal will help to clear the sugary food off the teeth, much like tooth-brushing does. This prevents the sugar from remaining on the teeth for a long period of time and feeding the plaquewhich causes tooth decay.</p>
-
-<h4>Frequency vs. amount</h4>
-
+<p>This <i>does not</i> mean that you/your child can never enjoy sugar or starch! Instead, the diet must be balanced with other types of foods including proteins and healthy fats. Examples of foods which will promote oral health are vegetables, lean meats, fish, nuts, eggs, beans, and more. When eating or drinking sugar, do so as part of a meal – not as a snack – because chewing the non-sugary foods in the meal will help to clear the sugary food off the teeth, much like tooth-brushing does. This prevents the sugar from remaining on the teeth for a long period of time and feeding the plaque which causes tooth decay.</p>
 
 <h4 class="section-subheader">Foods to Eat/Foods to Limit</h4>
 
@@ -92,7 +89,7 @@ sections:
 
 <p><b>The body’s response to plaque and tartar at and below the gumline can lead to permanent bone loss, loose teeth, and missing teeth.</b></p>
 
-<p>Gum disease is caused by the body’s natural inflammatory response to sugar-eating bacteria in plaque when they invade into the tiny, pocket-like space between the gums and tooth.The long-term inflammation which the body puts up to prevent this germ invasion from becoming an infection ends up destroying everything around it, much like the destruction seen on and around a battlefield. The body’s unintentional result of preventing a much larger infection leads to the destruction of the bone which surrounds a tooth’s root and anchors it into the jaw. When this anchoring bone is lost, the tooth gradually becomes looser until it falls out. This is a disease process which is different than how baby teeth normally fall out, and it can lead to the permanent loss of adult teeth.</p>
+<p>Gum disease is caused by the body’s natural inflammatory response to sugar-eating bacteria in plaque when they invade into the tiny, pocket-like space between the gums and tooth. The long-term inflammation which the body puts up to prevent this germ invasion from becoming an infection ends up destroying everything around it, much like the destruction seen on and around a battlefield. The body’s unintentional result of preventing a much larger infection leads to the destruction of the bone which surrounds a tooth’s root and anchors it into the jaw. When this anchoring bone is lost, the tooth gradually becomes looser until it falls out. This is a disease process which is different than how baby teeth normally fall out, and it can lead to the permanent loss of adult teeth.</p>
 
 <p>Usually starting in pre-teens and continuing throughout adulthood, the spit/saliva in the mouth will slowly deposit calculus (“tartar”) on the teeth. This tartar is a hard, mineral complex in which the sugar-eating germs in plaque live. Tartar cannot be brushed away. Its accumulation is slowed by regular tooth-brushing and flossing. Once it accumulates, it can only be removed by a dental professional trained in calculus removal.</p>
 
@@ -117,7 +114,7 @@ sections:
 
 <section id="procedures-materials-safety" class="section patient-section">
 
-<h2 class="section-header">Procedures, Materials, and our Commitment to </h2>
+<h2 class="section-header">Procedures, Materials, and our Commitment to Safety</h2>
 
 <p><b>No Smile Left Behind delivers comprehensive dental care with an uncommon attention to detail and safety.</b></p>
 

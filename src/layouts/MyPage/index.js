@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import PropTypes from 'prop-types'
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
 // import Helmet from "react-helmet"
 // import warning from "warning"
@@ -14,7 +15,15 @@ class MyPage extends Component{
   }
   render(){
     return (
+      <ReactCSSTransitionGroup
+        transitionName="bg"
+        transitionEnterTimeout={500}
+        transitionLeaveTimeout={300}
+        transitionAppear={true}
+        transitionAppearTimeout={500}
+      >
         <CallToAction cta={this.head.cta} hero={this.head.hero}/>
+      </ReactCSSTransitionGroup>
     )}
 }
 

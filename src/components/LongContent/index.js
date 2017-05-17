@@ -10,10 +10,6 @@ import styles from './index.css'
 // ]
 
 const LongContent = ({body, head})=>{
-  // var adjustScroll = (e)=>{
-  //   e.preventDefault();
-  //   return null
-  // }
   return(
     <div className={styles.pageWrap}>
 
