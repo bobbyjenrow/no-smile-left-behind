@@ -20,7 +20,7 @@ var text = data.address;
       </section>
       <section className={styles.phone}>
         Nathan Becker, DDS
-        (313)500-4444
+        (720) 767-2851
       </section>
       <section className={styles.social}>
         {

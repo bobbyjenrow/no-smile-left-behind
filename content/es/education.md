@@ -15,7 +15,6 @@ sections:
   - title: Tooth decay
   - title: Gum Disease
   - title: Hygiene
-  - title: Procedures, Materials & Safety
 ---
 
 <blockquote style='text-align:center'><strong>There’s nothing more important for health than preventing problems from occurring in the first place.</strong></blockquote>
@@ -43,7 +42,6 @@ sections:
 
 <p>This <i>does not</i> mean that you/your child can never enjoy sugar or starch! Instead, the diet must be balanced with other types of foods including proteins and healthy fats. Examples of foods which will promote oral health are vegetables, lean meats, fish, nuts, eggs, beans, and more. When eating or drinking sugar, do so as part of a meal – not as a snack – because chewing the non-sugary foods in the meal will help to clear the sugary food off the teeth, much like tooth-brushing does. This prevents the sugar from remaining on the teeth for a long period of time and feeding the plaque which causes tooth decay.</p>
 
-<br/>
 <h4 class="section-subheader">Foods to Eat/Foods to Limit</h4>
 
 <p><b>In general, sugary and starchy foods should be limited, but some common foods/drinks which are generally thought to be healthy are actually unhealthy and contribute to both tooth decay and poor general health. Whole foods should be the core of the diet.</b></p>
@@ -114,7 +112,7 @@ sections:
 
 
 
-<section id="procedures,-materials-&-safety" class="section patient-section">
+<section id="procedures-materials-safety" class="section patient-section">
 
 <h2 class="section-header">Procedures, Materials, and our Commitment to Safety</h2>
 

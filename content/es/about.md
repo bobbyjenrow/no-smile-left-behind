@@ -7,7 +7,7 @@ hero: http://res.cloudinary.com/ds0f4qyyt/image/upload/s--wCU-GHdb--/c_scale,q_j
 # hero credit: https://www.flickr.com/photos/pslee999/15589950511/
 <!-- sections:
   - title: Our Mission
-  - title: Meet The Staff
+  - title: Dr. Nathan
   - title: Staff -->
 ---
 
@@ -29,7 +29,7 @@ hero: http://res.cloudinary.com/ds0f4qyyt/image/upload/s--wCU-GHdb--/c_scale,q_j
     <li class="gallery-img"><img
       height="100%" width="100%"
      src="http://res.cloudinary.com/ds0f4qyyt/image/upload/s--aZ3nUM6E--/q_jpegmini/v1495027575/No_Smile_Left_Behind_1_gkyf3h.jpg"></li>
-     <label><em>The Mobile Office</em></label>
+     <label><em>The van</em></label>
     <li class="gallery-img"><img
     height="100%" width="100%"
     src="http://res.cloudinary.com/ds0f4qyyt/image/upload/s--wEIxIMV4--/q_jpegmini/v1495027574/Front_Treatment_Room_1_rcdjfv.jpg"></li>
@@ -41,13 +41,10 @@ hero: http://res.cloudinary.com/ds0f4qyyt/image/upload/s--wCU-GHdb--/c_scale,q_j
 </div>
 </section>
 
-<section id="meet-the-staff" class="section about-section">
-<h2 id="staff">Meet the Staff</h2>
-<div class="subsection">
+<section id="dr.-nathan" class="section about-section">
+<h2 id="nathan">Dr. Nathan</h2>
 <div class="text-layout">
 <div class="text-wrap">
-<h3> Dr. Nathan </h3>
-
 <p>Dr. Nathan has spent his entire career in mobile dentistry providing compassionate care for the underserved of all ages, with a focus on children. As a result, he has developed a unique skill set and sensitivity specially tailored to achieving excellent results in prevention, education, diagnosis, &amp; comprehensive restorative treatment among those who have difficulties accessing regular care for any reason.</p>
 
 <p>In his free time, Dr. Nathan enjoys reading, rock climbing, piano improvisation, cooking, meditation, and spending time outdoors.</p>
@@ -55,7 +52,6 @@ hero: http://res.cloudinary.com/ds0f4qyyt/image/upload/s--wCU-GHdb--/c_scale,q_j
 <div class="img-wrap">
   <img id="dr-nathan-img" width="100%" height="auto" src="http://res.cloudinary.com/ds0f4qyyt/image/upload/s--1ImzCrub--/q_jpegmini/v1495031583/Nathan_geager.jpg"></img>
   <label class="right" for="dr-nathan-img"><em>Nathan Becker, DDS.</em></label>
-</div>
 </div>
 </div>
 </section>

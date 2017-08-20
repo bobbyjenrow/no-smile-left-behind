@@ -28,6 +28,52 @@ const ContactItem = ({title, value, onChange, type, caption})=>{
                />
             </div>
           )
+          case('phone'):
+            return(
+                <div className={styles.wrapper}>
+                  <label
+                    className={cx({
+                      [styles.label]: true,
+                      [styles.textLabel]: true
+                    })}
+                    htmlFor="title"
+                  >{caption}</label>
+                  <input
+                    title={title}
+                    type="tel"
+                    name={title}
+                    className={cx({
+                      [styles.input]: true,
+                      [styles.textInput]: true
+                    })}
+                    value={value}
+                    onChange={onChange}
+                   />
+                </div>
+              )
+          case('email'):
+            return(
+                <div className={styles.wrapper}>
+                  <label
+                    className={cx({
+                      [styles.label]: true,
+                      [styles.textLabel]: true
+                    })}
+                    htmlFor="title"
+                  >{caption}</label>
+                  <input
+                    title={title}
+                    type="email"
+                    name={title}
+                    className={cx({
+                      [styles.input]: true,
+                      [styles.textInput]: true
+                    })}
+                    value={value}
+                    onChange={onChange}
+                   />
+                </div>
+              )
           case('textarea'):
             return(
               <div className={styles.wrapper}>

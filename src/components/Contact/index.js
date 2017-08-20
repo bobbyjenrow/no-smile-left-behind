@@ -39,6 +39,7 @@ class Contact extends Component{
       isOrg: false,
       org: '',
       subject: '',
+      phone: '',
       email: '',
       message: '',
       isSubmit: false,
@@ -79,14 +80,15 @@ class Contact extends Component{
         isOrg &&
          <ContactItem type="text" title="org" caption="Organization" onChange={this.handleStateChange} />
       }
-      <ContactItem type="text" title="email" caption="Email" onChange={this.handleStateChange} />
+      <ContactItem type="phone" title="phone" caption="Phone" onChange={this.handleStateChange} />
+      <ContactItem type="email" title="email" caption="Email" onChange={this.handleStateChange} />
       <ContactItem type="text" title="subject" caption="Subject" onChange={this.handleStateChange} />
       <ContactItem type="textarea" title="message" caption="Message" onChange={this.handleStateChange} />
       <Button secondary className={styles.submit} onClick={this.handleSubmit} > <label>Submit</label> </Button>
     </form>
       <div className={styles.patients}>
         <div className={styles.ptext}>Are you a patient? Register here:</div>
-        <Link className={styles.link} to="/patients"><Button secondary className={styles.pbutton}>Register</Button></Link>
+        <Link className={styles.link} to="/construction"><Button secondary className={styles.pbutton}>Register</Button></Link>
       </div>
     </div>
     )

@@ -126,6 +126,9 @@ hr {
     margin: 175px 0 0;
   }
 }
+.subsection{
+  padding: 1rem;
+}
 
 .bg-enter {
   opacity: 0.01;

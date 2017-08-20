@@ -2,6 +2,8 @@ import React, { Component } from "react"
 import PropTypes from 'prop-types'
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
+// import enhanceCollection from "phenomic/lib/enhance-collection"
+
 // import Helmet from "react-helmet"
 // import warning from "warning"
 
@@ -17,12 +19,14 @@ class MyPage extends Component{
     return (
       <ReactCSSTransitionGroup
         transitionName="bg"
-        transitionEnterTimeout={500}
+        transitionEnterTimeout={1000}
         transitionLeaveTimeout={300}
         transitionAppear={true}
         transitionAppearTimeout={500}
       >
+      {
         <CallToAction cta={this.head.cta} hero={this.head.hero}/>
+      }
       </ReactCSSTransitionGroup>
     )}
 }
@@ -36,11 +40,12 @@ MyPage.propTypes = {
   body: PropTypes.string,
   header: PropTypes.element,
   footer: PropTypes.element,
-  cta: PropTypes.object
+  cta: PropTypes.object,
 }
 
 MyPage.contextTypes = {
   metadata: PropTypes.object.isRequired,
+  collection: PropTypes.array.isRequired,
 }
 
 export default MyPage

@@ -25,7 +25,7 @@
   align-items: center;
   @media screen and (min-width:  848px){
       justify-content: space-between;
-      height: var(--headerHeight)
+      height: var(--headerHeight);
   }
 }
 
@@ -37,5 +37,5 @@
 }
 
 .logo{
-  margin: auto;
+
 }
